@@ -1,0 +1,11 @@
+version: v1beta1
+kind: Spicepod
+name: flightset
+datasets:
+  - from: s3://spiceproject
+    name: flightset
+    description: flight data in s3
+    acceleration:
+      enabled: false
+      refresh_interval: 10s
+      refresh_mode: full

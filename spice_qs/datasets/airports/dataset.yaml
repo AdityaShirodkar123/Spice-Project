@@ -1,0 +1,9 @@
+from: s3://spiceprojectai/airports.parquet
+name: airports
+description: airport codes
+params:
+  region: "us-west-2"
+acceleration:
+  enabled: true
+  refresh_interval: 400s
+  refresh_mode: full

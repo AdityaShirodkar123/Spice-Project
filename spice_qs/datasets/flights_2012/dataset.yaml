@@ -1,0 +1,3 @@
+from: s3://spiceprojectai/2012.parquet
+name: flights_2012
+description: flights from 2012

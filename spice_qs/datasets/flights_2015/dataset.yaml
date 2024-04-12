@@ -1,0 +1,5 @@
+from: s3://spiceprojectai/2015.parquet
+name: flights_2015
+description: flights from 2015
+params:
+  region: "us-west-2"

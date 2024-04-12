@@ -1,0 +1,28 @@
+version: v1beta1
+kind: Spicepod
+name: spice_qs
+datasets:
+- ref: datasets/flights_2009
+- ref: datasets/flights_2009_accelerated
+- ref: datasets/flights_2010_accelerated
+- ref: datasets/flights_2010
+- ref: datasets/flights_2011_accelerated
+- ref: datasets/flights_2011
+- ref: datasets/flights_2012_accelerated
+- ref: datasets/flights_2012
+- ref: datasets/flights_2013_accelerated
+- ref: datasets/flights_2013
+- ref: datasets/flights_2014
+- ref: datasets/flights_2014_accelerated
+- ref: datasets/flights_2015
+- ref: datasets/flights_2015_accelerated
+- ref: datasets/flights_2016
+- ref: datasets/flights_2016_accelerated
+- ref: datasets/flights_2017
+- ref: datasets/flights_2017_accelerated
+- ref: datasets/flights_2018
+- ref: datasets/flights_2018_accelerated
+- ref: datasets/carriers
+- ref: datasets/airports
+dependencies:
+- spiceai/quickstart

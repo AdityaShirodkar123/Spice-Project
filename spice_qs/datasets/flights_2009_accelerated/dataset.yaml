@@ -1,0 +1,9 @@
+from: s3://spiceprojectai/2009.parquet
+name: flights_2009_accelerated
+description: accelerated flights from 2009
+params:
+  region: "us-west-2"
+acceleration:
+  enabled: true
+  refresh_interval: 400s
+  refresh_mode: full

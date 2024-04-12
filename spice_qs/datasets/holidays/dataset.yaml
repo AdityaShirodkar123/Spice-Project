@@ -1,0 +1,9 @@
+from: s3://spiceprojectai/US Holiday Dates (2004-2021).parquet
+name: holidays
+description: holiday dates over time
+params:
+  region: "us-west-2"
+acceleration:
+  enabled: false
+  refresh_interval: 400s
+  refresh_mode: full
