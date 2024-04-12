@@ -31,7 +31,7 @@ The program interacts with a local database to retrieve historical flight data a
 ### Datasets Used:
 - [Flight Datasets](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018/data?select=2016.csv)
 - [Airport Dataset](https://www.kaggle.com/datasets/thoudamyoihenba/airports)
-- [Carrier Dataset - Included in folder]([https://www.kaggle.com/datasets/thoudamyoihenba/airports](https://courses.cs.washington.edu/courses/cse414/19au/hw/flight-dataset.zip))
+- [Carrier Dataset - Included in folder](https://courses.cs.washington.edu/courses/cse414/19au/hw/flight-dataset.zip)
 
 ## Functionality
 
